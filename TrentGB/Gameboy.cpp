@@ -4,6 +4,9 @@
 
 Gameboy::Gameboy()
 {
+	ram = RAM();
+	cpu = CPU();
+
 }
 
 

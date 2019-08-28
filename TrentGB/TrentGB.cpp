@@ -11,6 +11,6 @@ TrentGB::~TrentGB()
 {
 }
 
-int run() {
+int TrentGB::run() {
 	return 0;
 }

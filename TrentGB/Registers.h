@@ -7,6 +7,15 @@ class Registers
 public:
 	int a, b, c, d, e, h, l; // Normal registers
 	int sp, pc, f; // Special registers
+	struct f {
+		unsigned char unusedFlags : 4;
+		unsigned char carryFlag : 1;
+		unsigned char halfCarryFlag : 1;
+		unsigned char subtractFlag : 1;
+		unsigned char zeroFlag : 1;
+	};
+
+
 
 	// CPU Registers Map
 
@@ -37,7 +46,10 @@ public:
 		return f;
 	}
 
-	// AF
+	word getAF() {
+		word af = (a << 8) + f;
+		return  af;
+	}
 
 	byte getB() {
 		return b;
@@ -47,7 +59,10 @@ public:
 		return c;
 	}
 
-	//BC
+	word getBC() {
+		word bc = (b << 8) + c;
+		return  bc;
+	}
 
 	byte getD() {
 		return d;
@@ -57,7 +72,10 @@ public:
 		return e;
 	}
 
-	//DE
+	word getDE() {
+		word de = (d << 8) + e;
+		return  de;
+	}
 
 	
 	byte getH() {
@@ -68,7 +86,10 @@ public:
 		return l;
 	}
 
-	//HL
+	word getHL() {
+		word hl = (h << 8) + l;
+		return  hl;
+	}
 
 	word getStackPointer() {
 		return sp;
@@ -81,16 +102,7 @@ public:
 
 
 
-	Registers() {
-		a = 0;
-		b = 0;
-		c = 0;
-		d = 0;
-		e = 0;
-		f = 0; 
-		g = 0;
-		h = 0;
-	}
+	Registers();
 	~Registers();
 };
 

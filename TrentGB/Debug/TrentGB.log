@@ -1,13 +1,3 @@
-﻿  Registers.cpp
-c:\users\tcallan\source\repos\trentgb\trentgb\trentgb\gameboy\registers.h(50): error C2535: 'int Registers::getH(void)': member function already defined or declared
-  c:\users\tcallan\source\repos\trentgb\trentgb\trentgb\gameboy\registers.h(38): note: see declaration of 'Registers::getH'
-c:\users\tcallan\source\repos\trentgb\trentgb\trentgb\gameboy\registers.cpp(6): error C2084: function 'Registers::Registers(void)' already has a body
-  c:\users\tcallan\source\repos\trentgb\trentgb\trentgb\gameboy\registers.h(55): note: see previous definition of '{ctor}'
-  MMU.cpp
-c:\users\tcallan\source\repos\trentgb\trentgb\trentgb\gameboy\mmu.cpp(2): fatal error C1083: Cannot open include file: 'cstdtypes': No such file or directory
-  GPU.cpp
-  Gameboy.cpp
-  CPU.cpp
-c:\users\tcallan\source\repos\trentgb\trentgb\trentgb\gameboy\registers.h(50): error C2535: 'int Registers::getH(void)': member function already defined or declared
-  c:\users\tcallan\source\repos\trentgb\trentgb\trentgb\gameboy\registers.h(38): note: see declaration of 'Registers::getH'
-  Generating Code...
+﻿  TrentGB.cpp
+  TrentGB.vcxproj -> C:\Users\tcallan\Desktop\myProjects\TrentGB\Debug\TrentGB.exe
+  TrentGB.vcxproj -> C:\Users\tcallan\Desktop\myProjects\TrentGB\Debug\TrentGB.pdb (Partial PDB)

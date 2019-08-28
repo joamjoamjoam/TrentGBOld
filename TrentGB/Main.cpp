@@ -10,7 +10,7 @@
 int main(int argc, char** argv[]) {
 	int rc = 0;
 
-	TrentGB emulator;
+	TrentGB emulator = TrentGB();
 
 	rc = emulator.run();
 

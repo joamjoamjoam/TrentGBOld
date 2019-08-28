@@ -5,7 +5,9 @@
 
 CPU::CPU()
 {
-	Registers registers;
+	registers = Registers();
+	registers.pc = 0x0100; // Address of first CPU Instruction in ROM
+	registers.sp = 0xFFFE;
 }
 
 
