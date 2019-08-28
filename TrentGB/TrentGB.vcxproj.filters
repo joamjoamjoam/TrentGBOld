@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Gameboy">
+      <UniqueIdentifier>{0e17dcab-5d01-4d76-bcd2-f9081cbe0515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameboy\MMU">
+      <UniqueIdentifier>{a2918c4c-07df-4dd0-b7a1-72ba03ddb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameboy\GPU">
+      <UniqueIdentifier>{19adbd2b-27da-4dfb-b2d7-5ee0f9537d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameboy\Utility">
+      <UniqueIdentifier>{2cb427b8-2cee-492f-aa0e-8597330db6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TrentGB">
+      <UniqueIdentifier>{955bcebd-f1ac-4858-877f-e85ff2074856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameboy\CPU">
+      <UniqueIdentifier>{d486b0c8-8abd-404f-8c6a-ba6a8648728a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameboy\CPU\Registers">
+      <UniqueIdentifier>{81af9ae2-50c9-4990-a480-454330ebfe66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPU.cpp">
+      <Filter>Gameboy\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Registers.cpp">
+      <Filter>Gameboy\CPU\Registers</Filter>
+    </ClCompile>
+    <ClCompile Include="MMU.cpp">
+      <Filter>Gameboy\MMU</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>TrentGB</Filter>
+    </ClCompile>
+    <ClCompile Include="TrentGB.cpp">
+      <Filter>TrentGB</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameboy.cpp">
+      <Filter>Gameboy</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU.cpp">
+      <Filter>Gameboy\GPU</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CPU.h">
+      <Filter>Gameboy\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Registers.h">
+      <Filter>Gameboy\CPU\Registers</Filter>
+    </ClInclude>
+    <ClInclude Include="MMU.h">
+      <Filter>Gameboy\MMU</Filter>
+    </ClInclude>
+    <ClInclude Include="TrentGB.h">
+      <Filter>TrentGB</Filter>
+    </ClInclude>
+    <ClInclude Include="cTypes.h">
+      <Filter>Gameboy\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameboy.h">
+      <Filter>Gameboy</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU.h">
+      <Filter>Gameboy\GPU</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
