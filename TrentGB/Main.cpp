@@ -2,13 +2,8 @@
 #include "TrentGB.h"
 
 
-
-
-
-
-
-int main(int argc, char** argv[]) {
-	int rc = 0;
+int main(int argc, char** argvs) {
+    int rc = 0;
 
 	TrentGB emulator = TrentGB();
 

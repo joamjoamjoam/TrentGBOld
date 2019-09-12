@@ -1,4 +1,6 @@
 #pragma once
+#include "Registers.h"
+
 class CPU
 {
 public:

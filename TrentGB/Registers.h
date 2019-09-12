@@ -38,66 +38,33 @@ public:
 
 
 
-	byte getA() {
-		return a;
-	}
+    byte getA();
 
-	byte getF() {
-		return f;
-	}
+    byte getF();
 
-	word getAF() {
-		word af = (a << 8) + f;
-		return  af;
-	}
+    word getAF();
 
-	byte getB() {
-		return b;
-	}
+    byte getB();
 
-	byte getC() {
-		return c;
-	}
+    byte getC();
 
-	word getBC() {
-		word bc = (b << 8) + c;
-		return  bc;
-	}
+    word getBC();
 
-	byte getD() {
-		return d;
-	}
+    byte getD();
 
-	byte getE() {
-		return e;
-	}
+    byte getE();
 
-	word getDE() {
-		word de = (d << 8) + e;
-		return  de;
-	}
+    word getDE();
 
-	
-	byte getH() {
-		return h;
-	}
+    byte getH();
 
-	byte getL() {
-		return l;
-	}
+    byte getL();
 
-	word getHL() {
-		word hl = (h << 8) + l;
-		return  hl;
-	}
+    word getHL();
 
-	word getStackPointer() {
-		return sp;
-	}
+    word getStackPointer();
 
-	word getProgramCounter() {
-		return pc;
-	}
+    word getProgramCounter();
 
 
 
